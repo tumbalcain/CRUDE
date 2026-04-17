@@ -1,0 +1,6 @@
+include README.md
+include pyproject.toml
+include data.json
+include data_schema.json
+recursive-include examples *.py
+recursive-include tests *.py

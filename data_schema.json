@@ -1,0 +1,13 @@
+{
+    "name": "str",
+    "age": "int",
+    "gender": "str",
+    "tasks": [
+        {"action": "str", "value": "int"},
+        {"action": "str", "name": "str"}
+    ],
+    "increment": {
+        "action": "str",
+        "value": "int"
+    }  
+}

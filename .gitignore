@@ -1,0 +1,24 @@
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Temp directories
+.tmp_*/
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+venv/
+.env/
+
+# VSCode
+.vscode/
+
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db

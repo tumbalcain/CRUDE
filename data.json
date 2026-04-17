@@ -1,0 +1,19 @@
+{
+    "name": "John",
+    "age": 20,
+    "gender": "male",
+    "tasks": [
+        {
+            "action": "increment",
+            "value": 5
+        },
+        {
+            "action": "greet",
+            "name": "John"
+        }
+    ],
+    "increment": {
+        "action": "increment",
+        "value": 5
+    }
+}
