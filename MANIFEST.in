@@ -4,3 +4,4 @@ include data.json
 include data_schema.json
 recursive-include examples *.py
 recursive-include tests *.py
+recursive-include crude_engine *.py

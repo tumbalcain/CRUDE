@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "crude-engine"
-dynamic = ["version"]
+version = "0.1.0"
 description = "JSON-backed CRUD helper with schema validation and execution engine"
 authors = [
     { name="Axander Kevin Arslan Sinsustra" }
@@ -41,14 +41,11 @@ dev = [
 include-package-data = true
 
 [tool.setuptools.packages.find]
-include = ["crude*"]
+include = ["crude-engine*"]
 exclude = ["tests*", "test*", "examples*"]
 
 [tool.setuptools.package-data]
-crude = ["py.typed"]
-
-[tool.setuptools.dynamic]
-version = { attr = "crude-engine.__version__" }
+crude-engine = ["py.typed"]
 
 [tool.ruff]
 target-version = "py310"
