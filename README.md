@@ -2,6 +2,12 @@
 
 `CRUDE` is a lightweight JSON-backed CRUD helper for small Python projects.
 
+Install from PyPI with:
+
+```bash
+pip install crude-engine
+```
+
 It gives you:
 
 - JSON file loading and saving

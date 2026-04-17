@@ -25,7 +25,7 @@ python -m twine upload -r testpypi dist/*
 Install from TestPyPI:
 
 ```bash
-python -m pip install -i https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/ crude
+python -m pip install -i https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/ crude-engine
 ```
 
 ## Upload to PyPI
