@@ -3,7 +3,7 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "crude"
+name = "crude-engine"
 dynamic = ["version"]
 description = "JSON-backed CRUD helper with schema validation and execution engine"
 authors = [
@@ -33,9 +33,9 @@ dev = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/tumbalcain/crude"
-"Repository" = "https://github.com/tumbalcain/crude"
-"Issues" = "https://github.com/tumbalcain/crude/issues"
+"Homepage" = "https://github.com/tumbalcain/CRUDE"
+"Repository" = "https://github.com/tumbalcain/CRUDE"
+"Issues" = "https://github.com/tumbalcain/CRUDE/issues"
 
 [tool.setuptools]
 include-package-data = true
@@ -48,7 +48,7 @@ exclude = ["tests*", "test*", "examples*"]
 crude = ["py.typed"]
 
 [tool.setuptools.dynamic]
-version = { attr = "crude.__version__" }
+version = { attr = "crude-engine.__version__" }
 
 [tool.ruff]
 target-version = "py310"
